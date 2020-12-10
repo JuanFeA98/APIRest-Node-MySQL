@@ -1,0 +1,31 @@
+{
+  "name": "apirest-node-mysql",
+  "version": "1.0.0",
+  "description": "API Rest build with NodeJS and Mysql",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanFeA98/APIRest-Node-MySQL.git"
+  },
+  "keywords": [
+    "API Rest",
+    "NodeJS",
+    "Mysql"
+  ],
+  "author": "Juan Martínez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JuanFeA98/APIRest-Node-MySQL/issues"
+  },
+  "homepage": "https://github.com/JuanFeA98/APIRest-Node-MySQL#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
